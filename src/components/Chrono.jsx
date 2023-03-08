@@ -18,9 +18,9 @@ function Chrono(){
     }, [state]);
 
     return (
-        <React.Fragment>
+        <div>
             {state.date.toLocaleTimeString()}
-        </React.Fragment>
+        </div>
     )
 
 }

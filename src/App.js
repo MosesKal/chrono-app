@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+import Chrono from './components/Chrono';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <div className="container">
+      <h1>Chronomètre ⏰</h1>
+      <Chrono />
+    </ div>
   );
 }
 
